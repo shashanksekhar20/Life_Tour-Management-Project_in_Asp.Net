@@ -1,0 +1,249 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication11.Site1" %>
+
+
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TRAVELER - Free Travel Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Brand Logo -->
+        <a href="Home.aspx" class="navbar-brand">
+            <h1 class="m-0 text-warning"><span class="text-light">Lets</span>Enjoy</h1>
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="Home.aspx" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="About.aspx" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Package.aspx" class="nav-link">Enjoy List</a>
+                </li>
+
+               
+
+                <li class="nav-item">
+                    <a href="Signup.aspx" class="nav-link">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Login.aspx" class="nav-link">Login</a>
+                </li>
+
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- CSS Styles -->
+<style>
+/* Navbar Styling */
+.navbar {
+    background: #0a1f44 !important; /* Dark blue background */
+    padding: 15px;
+}
+
+/* Navbar Text */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Fix Spacing for Items */
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Gold on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background: #0c274e !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+    background: #122d60 !important;
+}
+</style>
+
+
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+   
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                <!-- Footer Start -->
+<div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+    <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <a href="" class="navbar-brand">
+                <h1 class="text-warning"><span class="text-white">Lets</span>Enjoy</h1>
+            </a>
+            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor ipsum lorem amet labore rebum lorem ipsum dolor.</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 2px;">Follow Us</h6>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 2px;">Our Services</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> About</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Destination</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Services</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Packages</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Guides</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Testimonials</a>
+                <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i> Blog</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 2px;">Useful Links</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> About</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Destination</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Services</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Packages</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Guides</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> Testimonials</a>
+                <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i> Blog</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 2px;">Contact Us</h5>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+            <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 2px;">Newsletter</h6>
+            <div class="w-100">
+                <div class="input-group">
+                    <input type="text" class="form-control border-light" style="padding: 20px;" placeholder="Your Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-warning px-3">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer End -->
+
+<style>
+    .btn-outline-light {
+        border: 2px solid #fff;
+        color: #fff;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    .btn-outline-light:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    .text-white-50 {
+        opacity: 0.7;
+    }
+    .text-white-50:hover {
+        opacity: 1;
+    }
+    .input-group {
+        border-radius: 5px;
+    }
+    .input-group input {
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    .input-group-append .btn-warning {
+        background-color: #f4c542;
+        color: #fff;
+    }
+    .input-group-append .btn-warning:hover {
+        background-color: #e0b038;
+    }
+</style>
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+</asp:ContentPlaceHolder>
+        
